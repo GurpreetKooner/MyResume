@@ -1,0 +1,45 @@
+/* Nav Bar */
+
+.navigation-bar {
+    text-align: center;
+}
+
+.my-name {
+    text-align: center;
+    font-size: 30px;
+}
+
+.my-tagline{
+    color: aliceblue;
+}
+
+.name-image {
+    align-items: center;
+    margin-left: 10%;
+}
+
+.contact-list {
+    margin-right: 10%;
+    text-align: left;
+}
+
+.navbar-brand small {
+    display: block;
+    font-size: 15px;
+    text-align: center;
+}
+
+.my-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.nav-item {
+    padding: 40px;
+    font-size: large;
+}
+
+.navbar-toggler {
+    margin-right: 10%;
+}
