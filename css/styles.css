@@ -1,5 +1,21 @@
 /* Nav Bar */
 
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-family: Georgia, serif;
+    word-spacing: 3px;
+}
+
+p,
+li {
+    font-family: Georgia, serif;
+    line-height: 1.7;
+    word-spacing: 3px;
+}
+
 .navigation-bar {
     background-color: #041C32;
 }
@@ -19,7 +35,7 @@
 }
 
 .name-image {
-    margin-left: 10%;
+    margin-left: 7%;
 }
 
 /* .navbar-brand small {
@@ -34,8 +50,25 @@
     border-radius: 50%;
 }
 
+@media (max-width: 990px) {
+    .my-image {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 990px) {
+    .my-image {
+        width: 90px;
+        height: 90px;
+    }
+    .my-name {
+        font-size: 20px;
+    }
+}
+
 .contact-list {
-    margin-right: 10%;
+    margin-right: 7%;
 }
 
 .nav-item {
@@ -44,15 +77,16 @@
 }
 
 .navbar-toggler {
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 7%;
 }
 
 /* bottom container */
 
 .bottom-container {
     background-color: #04293A;
-    padding: 3% 10%;
+    padding: 3% 7%;
 }
 
 .heading {
