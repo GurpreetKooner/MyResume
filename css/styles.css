@@ -48,6 +48,27 @@ li {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+/* picked from ChatGPT */
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    /* Stops at the final frame */
+}
+
+/* picked from ChatGPT */
+
+.rotate {
+    animation-name: rotateAnimation;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @media (max-width: 990px) {
@@ -62,6 +83,7 @@ li {
         width: 90px;
         height: 90px;
     }
+
     .my-name {
         font-size: 20px;
     }
